@@ -1,9 +1,10 @@
 # elrsbrute
 bruteforce bind phrase from STDIN
 
+**Build:**
 go build elrsbrute.go
 
-designed to work with pipes:
+**designed to work with pipes:**
 
 cat wordlist | ./elrsbrute -uid "79, 4, 253, 130, 33, 85"
 
